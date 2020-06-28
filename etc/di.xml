@@ -3,4 +3,8 @@
     <preference for="Magento\CatalogImportExport\Model\Import\Product\CategoryProcessor"
         type="Spydemon\CatalogProductImportCategoryByID\Model\CategoryProcessor"
     />
+    <type name="Magento\ImportExport\Model\Import\ErrorProcessing\ProcessingErrorAggregator">
+        <plugin name="spydemon_catalog_product_import_category_by_id_change_error_message"
+                type="Spydemon\CatalogProductImportCategoryByID\Plugin\ChangeErrorMessage" />
+    </type>
 </config>
