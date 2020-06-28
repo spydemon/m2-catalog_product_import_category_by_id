@@ -1,0 +1,26 @@
+{
+    "name": "spydemon/m2-catalog_product_import_category_by_id",
+    "description": "Modify Magento 2 product import for identifying associated categories by ID instead of named paths.",
+    "homepage": "https://github.com/spydemon/m2-catalog_product_import_category_by_id",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Kevin Hagner (Spydemon)",
+            "email": "jsaipakoimetr@spyzone.fr"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "magento/product-community-edition": "2.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Spydemon\\CatalogProductImportCategoryByID\\": ""
+        }
+    }
+}
